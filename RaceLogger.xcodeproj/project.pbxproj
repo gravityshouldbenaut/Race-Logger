@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5112F9A17997A3F004DE1D6 /* yorkshire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B5112F9917997A3F004DE1D6 /* yorkshire.jpeg */; };
+		B51A556418EB89DD002E0D05 /* IsleOfManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51A556318EB89DD002E0D05 /* IsleOfManViewController.m */; };
+		B51A556718EB8BFE002E0D05 /* YungasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51A556618EB8BFE002E0D05 /* YungasViewController.m */; };
+		B525B49118F08C1C00B45F7E /* NoRoadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B525B49018F08C1C00B45F7E /* NoRoadsViewController.m */; };
+		B525FEA31770DCAE0090D991 /* Black-Mountains-Road-640x336.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B525FEA21770DCAE0090D991 /* Black-Mountains-Road-640x336.jpg */; };
+		B525FEA51770DEAC0090D991 /* Screen Shot 2013-06-18 at 12.28.56 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B525FEA41770DEAC0090D991 /* Screen Shot 2013-06-18 at 12.28.56 PM.png */; };
+		B525FEA71770DF400090D991 /* bmpic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B525FEA61770DF400090D991 /* bmpic5.jpg */; };
+		B525FEA91770E1910090D991 /* North-Yungas-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B525FEA81770E1910090D991 /* North-Yungas-2.jpg */; };
+		B525FEAB1770E43F0090D991 /* Screen Shot 2013-06-18 at 12.52.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B525FEAA1770E43F0090D991 /* Screen Shot 2013-06-18 at 12.52.59 PM.png */; };
+		B525FEAD1770E4A80090D991 /* boli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B525FEAC1770E4A80090D991 /* boli.jpg */; };
+		B536F4EE18ED0F070083FCA2 /* KarakoramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B536F4ED18ED0F070083FCA2 /* KarakoramViewController.m */; };
+		B536F4F018ED17230083FCA2 /* Karakoram1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B536F4EF18ED17230083FCA2 /* Karakoram1.jpg */; };
+		B54A17E018DFB0A400B0F2D0 /* 5308811318_8b5e7a1f66_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B54A17DF18DFB0A400B0F2D0 /* 5308811318_8b5e7a1f66_b.jpg */; };
+		B54A17E218DFB24300B0F2D0 /* Screen Shot 2014-03-23 at 5.20.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B54A17E118DFB24300B0F2D0 /* Screen Shot 2014-03-23 at 5.20.35 PM.png */; };
+		B54A17E418DFB36100B0F2D0 /* chapmans-peak-road-cape-town.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B54A17E318DFB36100B0F2D0 /* chapmans-peak-road-cape-town.jpg */; };
+		B54BD95418ECCE5500C285F1 /* BonnevilleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD95318ECCE5500C285F1 /* BonnevilleViewController.m */; };
+		B54BD95718ECCF7200C285F1 /* MountPanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD95618ECCF7200C285F1 /* MountPanoramaViewController.m */; };
+		B54BD95A18ECD01400C285F1 /* BlackMountainPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD95918ECD01400C285F1 /* BlackMountainPassViewController.m */; };
+		B54BD95D18ECD16D00C285F1 /* KalbaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD95C18ECD16D00C285F1 /* KalbaViewController.m */; };
+		B54BD96018ECD40500C285F1 /* AkagiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD95F18ECD40500C285F1 /* AkagiViewController.m */; };
+		B54BD96318ECD4D900C285F1 /* Highway1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD96218ECD4D900C285F1 /* Highway1ViewController.m */; };
+		B54BD96618ECD60D00C285F1 /* AtlanticRoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD96518ECD60D00C285F1 /* AtlanticRoadViewController.m */; };
+		B54BD96918ECD70400C285F1 /* StelvioPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD96818ECD70400C285F1 /* StelvioPassViewController.m */; };
+		B54BD96C18ECD77200C285F1 /* TransfagarasanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54BD96B18ECD77200C285F1 /* TransfagarasanViewController.m */; };
+		B55698DA18B7237E0064C997 /* th.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B55698D918B7237E0064C997 /* th.jpeg */; };
+		B559E3F1190C4CE100DC71F4 /* The_Evo_Triangle_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B559E3F0190C4CE100DC71F4 /* The_Evo_Triangle_8.jpg */; };
+		B559E3F3190C4DD600DC71F4 /* 2012-Aston-Martin-One-77-drift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B559E3F2190C4DD600DC71F4 /* 2012-Aston-Martin-One-77-drift.jpg */; };
+		B55B815F1778DC3E006BB663 /* killarney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55B815E1778DC3E006BB663 /* killarney.jpg */; };
+		B55B81611778DCF4006BB663 /* Map Marten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55B81601778DCF4006BB663 /* Map Marten.jpg */; };
+		B55B81631778DD4E006BB663 /* 100233.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55B81621778DD4E006BB663 /* 100233.jpg */; };
+		B55B81651778DF47006BB663 /* bonneville-585.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55B81641778DF47006BB663 /* bonneville-585.jpg */; };
+		B561FD4E18CBD5F200C59788 /* Unexpected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B561FD4D18CBD5F200C59788 /* Unexpected.jpg */; };
+		B561FD5018CBD71E00C59788 /* stopwatch-racetrack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B561FD4F18CBD71E00C59788 /* stopwatch-racetrack.jpg */; };
+		B562C2AB177391C1007993FD /* iro002-14-55p-panorama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B562C2AA177391C1007993FD /* iro002-14-55p-panorama.jpg */; };
+		B562C2AD177392E8007993FD /* 赤城山.png in Resources */ = {isa = PBXBuildFile; fileRef = B562C2AC177392E8007993FD /* 赤城山.png */; };
+		B562C2AF177393E8007993FD /* 02-Nov-10-rFactorCentral-1916_wsegewrhgerthrthj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B562C2AE177393E8007993FD /* 02-Nov-10-rFactorCentral-1916_wsegewrhgerthrthj.jpg */; };
+		B56CA99F177B75AC0041C1C2 /* delmarplata1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CA99E177B75AC0041C1C2 /* delmarplata1.jpg */; };
+		B56CA9A1177B781D0041C1C2 /* 800px-Autódromo_Ciudad_de_Mar_del_Plata_(Argentina)_track_map.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = B56CA9A0177B781D0041C1C2 /* 800px-Autódromo_Ciudad_de_Mar_del_Plata_(Argentina)_track_map.svg.png */; };
+		B56CA9A3177B791F0041C1C2 /* ver_foto_grande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CA9A2177B791F0041C1C2 /* ver_foto_grande.jpg */; };
+		B56CA9A5177B7D610041C1C2 /* sls-amg-isle-of-man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CA9A4177B7D610041C1C2 /* sls-amg-isle-of-man.jpg */; };
+		B56CA9A7177B7FC30041C1C2 /* rdiagrama18.png in Resources */ = {isa = PBXBuildFile; fileRef = B56CA9A6177B7FC30041C1C2 /* rdiagrama18.png */; };
+		B56CA9A9177B81120041C1C2 /* 305462.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CA9A8177B81120041C1C2 /* 305462.jpg */; };
+		B56CBA481770D1F700A72CEB /* silverstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CBA471770D1F700A72CEB /* silverstone.jpg */; };
+		B56CBA4A1770D26B00A72CEB /* 8508797786_ee24935131_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CBA491770D26B00A72CEB /* 8508797786_ee24935131_o.jpg */; };
+		B56CBA4C1770D2EE00A72CEB /* hd-wallpaper-30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CBA4B1770D2EE00A72CEB /* hd-wallpaper-30.jpg */; };
+		B56CBA4E1770D3BF00A72CEB /* fuji7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CBA4D1770D3BF00A72CEB /* fuji7.jpg */; };
+		B56CBA501770D44B00A72CEB /* euro-club-sport-meet-fuji-speedway-37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CBA4F1770D44B00A72CEB /* euro-club-sport-meet-fuji-speedway-37.jpg */; };
+		B57351AE1797FF9A0066C7A0 /* MDDirectionService.m in Sources */ = {isa = PBXBuildFile; fileRef = B57351AD1797FF9A0066C7A0 /* MDDirectionService.m */; };
+		B57C446918EF3635005D5CDB /* furka.gif in Resources */ = {isa = PBXBuildFile; fileRef = B57C446818EF3635005D5CDB /* furka.gif */; };
+		B57C446B18EF3B17005D5CDB /* Furkapass_westside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57C446A18EF3B17005D5CDB /* Furkapass_westside.jpg */; };
+		B57C446D18EF3CB5005D5CDB /* furka-pass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57C446C18EF3CB4005D5CDB /* furka-pass.jpg */; };
+		B57C447018EF3D4C005D5CDB /* FurkaPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C446F18EF3D4C005D5CDB /* FurkaPassViewController.m */; };
+		B57C447218EF4059005D5CDB /* 4949583925_484c45e94e_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57C447118EF4059005D5CDB /* 4949583925_484c45e94e_b.jpg */; };
+		B57C447518EF4FB1005D5CDB /* TianmenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C447418EF4FB1005D5CDB /* TianmenViewController.m */; };
+		B57C447718EF528B005D5CDB /* Transalpina-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57C447618EF528B005D5CDB /* Transalpina-4.jpg */; };
+		B57C447918EF54FF005D5CDB /* Transalpina Road Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = B57C447818EF54FF005D5CDB /* Transalpina Road Diagram.png */; };
+		B57C447B18EF558B005D5CDB /* 6171782820101c5b8107b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57C447A18EF558B005D5CDB /* 6171782820101c5b8107b.jpg */; };
+		B57C447E18EF565C005D5CDB /* YorkshireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C447D18EF565C005D5CDB /* YorkshireViewController.m */; };
+		B57C448118EF579B005D5CDB /* TransalpinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C448018EF579B005D5CDB /* TransalpinaViewController.m */; };
+		B57CC0B518E7861200B680FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57CC0B418E7861200B680FA /* MapKit.framework */; };
+		B57CC0BB18E78AE300B680FA /* ChapmansPeakDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57CC0BA18E78AE300B680FA /* ChapmansPeakDriveViewController.m */; };
+		B585FE601892A9F70019F216 /* Transfagarasan-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B585FE5F1892A9F70019F216 /* Transfagarasan-2.jpg */; };
+		B585FE621892AEC30019F216 /* TransfgrsnRoadDiagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B585FE611892AEC30019F216 /* TransfgrsnRoadDiagram.jpg */; };
+		B585FE641892AFFB0019F216 /* 5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B585FE631892AFFB0019F216 /* 5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg */; };
+		B585FE661892B0080019F216 /* Transfagarasan Road in Fagaras Mountains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B585FE651892B0080019F216 /* Transfagarasan Road in Fagaras Mountains.jpg */; };
+		B58C2D5A1908BE4C0072D05B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58C2D591908BE4C0072D05B /* GoogleMaps.framework */; };
+		B59741BE1768F44B00EFFC3D /* Leaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B59741BD1768F44B00EFFC3D /* Leaderboard.m */; };
+		B5980A14187701DB00E8758F /* atlantic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5980A13187701DB00E8758F /* atlantic.jpg */; };
+		B5980A161877027F00E8758F /* atlanticrd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5980A151877027F00E8758F /* atlanticrd.png */; };
+		B5980A18187702A600E8758F /* atlantic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5980A17187702A600E8758F /* atlantic1.jpg */; };
+		B5A24F5D1755719B00DCD62E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F5C1755719B00DCD62E /* CoreData.framework */; };
+		B5A24F5F175571A800DCD62E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F5E175571A800DCD62E /* CoreLocation.framework */; };
+		B5A24F61175571BC00DCD62E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F60175571BC00DCD62E /* CoreText.framework */; };
+		B5A24F63175571CA00DCD62E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F62175571CA00DCD62E /* GLKit.framework */; };
+		B5A24F65175571D800DCD62E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F64175571D800DCD62E /* ImageIO.framework */; };
+		B5A24F67175571EC00DCD62E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F66175571EC00DCD62E /* libc++.dylib */; };
+		B5A24F69175571FE00DCD62E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F68175571FE00DCD62E /* libicucore.dylib */; };
+		B5A24F6B1755720B00DCD62E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F6A1755720B00DCD62E /* libz.dylib */; };
+		B5A24F6D1755721600DCD62E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F6C1755721600DCD62E /* OpenGLES.framework */; };
+		B5A24F6F1755722300DCD62E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F6E1755722300DCD62E /* QuartzCore.framework */; };
+		B5A24F711755723000DCD62E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A24F701755723000DCD62E /* SystemConfiguration.framework */; };
+		B5A24F741755747C00DCD62E /* RaceTrackMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A24F731755747C00DCD62E /* RaceTrackMapView.m */; };
+		B5A35553190837A100EB34AC /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5A35552190837A100EB34AC /* GoogleMaps.bundle */; };
+		B5A960A3172E22F6003E0B1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A960A2172E22F6003E0B1A /* UIKit.framework */; };
+		B5A960A5172E22F6003E0B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A960A4172E22F6003E0B1A /* Foundation.framework */; };
+		B5A960A7172E22F6003E0B1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A960A6172E22F6003E0B1A /* CoreGraphics.framework */; };
+		B5A960AD172E22F6003E0B1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5A960AB172E22F6003E0B1A /* InfoPlist.strings */; };
+		B5A960AF172E22F6003E0B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A960AE172E22F6003E0B1A /* main.m */; };
+		B5A960B3172E22F6003E0B1A /* MetrotunibelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A960B2172E22F6003E0B1A /* MetrotunibelAppDelegate.m */; };
+		B5A960B5172E22F6003E0B1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960B4172E22F6003E0B1A /* Default.png */; };
+		B5A960B7172E22F6003E0B1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960B6172E22F6003E0B1A /* Default@2x.png */; };
+		B5A960B9172E22F6003E0B1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960B8172E22F6003E0B1A /* Default-568h@2x.png */; };
+		B5A960BC172E22F6003E0B1A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A960BA172E22F6003E0B1A /* MainStoryboard.storyboard */; };
+		B5A960BF172E22F6003E0B1A /* MetrotunibelFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A960BE172E22F6003E0B1A /* MetrotunibelFirstViewController.m */; };
+		B5A960C1172E22F6003E0B1A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960C0172E22F6003E0B1A /* first.png */; };
+		B5A960C3172E22F6003E0B1A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960C2172E22F6003E0B1A /* first@2x.png */; };
+		B5A960C6172E22F6003E0B1A /* MetrotunibelSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A960C5172E22F6003E0B1A /* MetrotunibelSecondViewController.m */; };
+		B5A960C8172E22F6003E0B1A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960C7172E22F6003E0B1A /* second.png */; };
+		B5A960CA172E22F6003E0B1A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A960C9172E22F6003E0B1A /* second@2x.png */; };
+		B5AB613017740251002ABD7F /* 800px-Forestelbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5AB612F17740251002ABD7F /* 800px-Forestelbow.jpg */; };
+		B5AB613217740308002ABD7F /* mpcd.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5AB613117740308002ABD7F /* mpcd.PNG */; };
+		B5B239621865AC9F00F9DBF8 /* CA1-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B239601865AC9F00F9DBF8 /* CA1-2.png */; };
+		B5B239631865AC9F00F9DBF8 /* CA1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B239611865AC9F00F9DBF8 /* CA1-1.png */; };
+		B5B239651865E0B100F9DBF8 /* CA1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5B239641865E0B100F9DBF8 /* CA1.jpg */; };
+		B5B239671865E20A00F9DBF8 /* Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5B239661865E20A00F9DBF8 /* Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg */; };
+		B5B239691865E32C00F9DBF8 /* 2006-mendocino.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B5B239681865E32C00F9DBF8 /* 2006-mendocino.jpeg */; };
+		B5C642B517738BD40045A31C /* 27673810.fuj045.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B5C642B417738BD40045A31C /* 27673810.fuj045.JPG */; };
+		B5C642B717738C780045A31C /* kalbadi.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C642B617738C780045A31C /* kalbadi.png */; };
+		B5C642B917738CDF0045A31C /* DSC_0632.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B5C642B817738CDF0045A31C /* DSC_0632.JPG */; };
+		B5C9751B18EF799100412C52 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9751A18EF799100412C52 /* Default~iphone.png */; };
+		B5C9751D18EF7BE700412C52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9751C18EF7BE700412C52 /* Default@2x.png */; };
+		B5C9752118EF7D2B00412C52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9752018EF7D2B00412C52 /* Default-568h@2x.png */; };
+		B5C9DCCE18EF692C0000B241 /* Leh-Manali-Highway-Road-trip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5C9DCCD18EF692C0000B241 /* Leh-Manali-Highway-Road-trip.jpg */; };
+		B5C9DCD018EF6AA40000B241 /* 290px-Leh_manali_highway_map.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9DCCF18EF6AA40000B241 /* 290px-Leh_manali_highway_map.png */; };
+		B5C9DCD218EF6B270000B241 /* on-the-way-to-gulaba-from-manali-on-manalileh-highway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5C9DCD118EF6B270000B241 /* on-the-way-to-gulaba-from-manali-on-manalileh-highway.jpg */; };
+		B5C9DCD518EF6BC10000B241 /* LehManaliViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C9DCD418EF6BC10000B241 /* LehManaliViewController.m */; };
+		B5EE8FBE176B8BF60065C032 /* IMG_7061.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EE8FBD176B8BF60065C032 /* IMG_7061.jpg */; };
+		B5EE8FC0176B8EEF0065C032 /* silverstone_arena_2010-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EE8FBF176B8EEF0065C032 /* silverstone_arena_2010-2.jpg */; };
+		B5FCCFD618EFBF5900B26477 /* icon114px.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FCCFD018EFBF5800B26477 /* icon114px.png */; };
+		B5FCCFD718EFBF5900B26477 /* icon120x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FCCFD118EFBF5900B26477 /* icon120x.png */; };
+		B5FCCFD818EFBF5900B26477 /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FCCFD218EFBF5900B26477 /* icon29.png */; };
+		B5FCCFD918EFBF5900B26477 /* icon57px.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FCCFD318EFBF5900B26477 /* icon57px.png */; };
+		B5FCCFDA18EFBF5900B26477 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FCCFD418EFBF5900B26477 /* icon58.png */; };
+		B5FCCFDB18EFBF5900B26477 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FCCFD518EFBF5900B26477 /* icon80.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5112F9917997A3F004DE1D6 /* yorkshire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yorkshire.jpeg; path = ../../../../Downloads/yorkshire.jpeg; sourceTree = "<group>"; };
+		B51A556218EB89DD002E0D05 /* IsleOfManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsleOfManViewController.h; sourceTree = "<group>"; };
+		B51A556318EB89DD002E0D05 /* IsleOfManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsleOfManViewController.m; sourceTree = "<group>"; };
+		B51A556518EB8BFE002E0D05 /* YungasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YungasViewController.h; sourceTree = "<group>"; };
+		B51A556618EB8BFE002E0D05 /* YungasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YungasViewController.m; sourceTree = "<group>"; };
+		B525B48F18F08C1C00B45F7E /* NoRoadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoRoadsViewController.h; sourceTree = "<group>"; };
+		B525B49018F08C1C00B45F7E /* NoRoadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoRoadsViewController.m; sourceTree = "<group>"; };
+		B525FEA21770DCAE0090D991 /* Black-Mountains-Road-640x336.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black-Mountains-Road-640x336.jpg"; sourceTree = "<group>"; };
+		B525FEA41770DEAC0090D991 /* Screen Shot 2013-06-18 at 12.28.56 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-06-18 at 12.28.56 PM.png"; sourceTree = "<group>"; };
+		B525FEA61770DF400090D991 /* bmpic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmpic5.jpg; sourceTree = "<group>"; };
+		B525FEA81770E1910090D991 /* North-Yungas-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "North-Yungas-2.jpg"; sourceTree = "<group>"; };
+		B525FEAA1770E43F0090D991 /* Screen Shot 2013-06-18 at 12.52.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-06-18 at 12.52.59 PM.png"; sourceTree = "<group>"; };
+		B525FEAC1770E4A80090D991 /* boli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boli.jpg; sourceTree = "<group>"; };
+		B536F4EC18ED0F070083FCA2 /* KarakoramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KarakoramViewController.h; sourceTree = "<group>"; };
+		B536F4ED18ED0F070083FCA2 /* KarakoramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KarakoramViewController.m; sourceTree = "<group>"; };
+		B536F4EF18ED17230083FCA2 /* Karakoram1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Karakoram1.jpg; sourceTree = "<group>"; };
+		B54A17DF18DFB0A400B0F2D0 /* 5308811318_8b5e7a1f66_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5308811318_8b5e7a1f66_b.jpg; path = ../../../../Downloads/5308811318_8b5e7a1f66_b.jpg; sourceTree = "<group>"; };
+		B54A17E118DFB24300B0F2D0 /* Screen Shot 2014-03-23 at 5.20.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2014-03-23 at 5.20.35 PM.png"; path = "../../../../Desktop/Screen Shot 2014-03-23 at 5.20.35 PM.png"; sourceTree = "<group>"; };
+		B54A17E318DFB36100B0F2D0 /* chapmans-peak-road-cape-town.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chapmans-peak-road-cape-town.jpg"; path = "../../../../Downloads/chapmans-peak-road-cape-town.jpg"; sourceTree = "<group>"; };
+		B54BD95218ECCE5500C285F1 /* BonnevilleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonnevilleViewController.h; sourceTree = "<group>"; };
+		B54BD95318ECCE5500C285F1 /* BonnevilleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonnevilleViewController.m; sourceTree = "<group>"; };
+		B54BD95518ECCF7200C285F1 /* MountPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountPanoramaViewController.h; sourceTree = "<group>"; };
+		B54BD95618ECCF7200C285F1 /* MountPanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountPanoramaViewController.m; sourceTree = "<group>"; };
+		B54BD95818ECD01400C285F1 /* BlackMountainPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackMountainPassViewController.h; sourceTree = "<group>"; };
+		B54BD95918ECD01400C285F1 /* BlackMountainPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackMountainPassViewController.m; sourceTree = "<group>"; };
+		B54BD95B18ECD16D00C285F1 /* KalbaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KalbaViewController.h; sourceTree = "<group>"; };
+		B54BD95C18ECD16D00C285F1 /* KalbaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KalbaViewController.m; sourceTree = "<group>"; };
+		B54BD95E18ECD40500C285F1 /* AkagiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkagiViewController.h; sourceTree = "<group>"; };
+		B54BD95F18ECD40500C285F1 /* AkagiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AkagiViewController.m; sourceTree = "<group>"; };
+		B54BD96118ECD4D900C285F1 /* Highway1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Highway1ViewController.h; sourceTree = "<group>"; };
+		B54BD96218ECD4D900C285F1 /* Highway1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Highway1ViewController.m; sourceTree = "<group>"; };
+		B54BD96418ECD60D00C285F1 /* AtlanticRoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlanticRoadViewController.h; sourceTree = "<group>"; };
+		B54BD96518ECD60D00C285F1 /* AtlanticRoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlanticRoadViewController.m; sourceTree = "<group>"; };
+		B54BD96718ECD70400C285F1 /* StelvioPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StelvioPassViewController.h; sourceTree = "<group>"; };
+		B54BD96818ECD70400C285F1 /* StelvioPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StelvioPassViewController.m; sourceTree = "<group>"; };
+		B54BD96A18ECD77200C285F1 /* TransfagarasanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransfagarasanViewController.h; sourceTree = "<group>"; };
+		B54BD96B18ECD77200C285F1 /* TransfagarasanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransfagarasanViewController.m; sourceTree = "<group>"; };
+		B55698D918B7237E0064C997 /* th.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = th.jpeg; path = ../../../../Downloads/th.jpeg; sourceTree = "<group>"; };
+		B559E3F0190C4CE100DC71F4 /* The_Evo_Triangle_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = The_Evo_Triangle_8.jpg; sourceTree = "<group>"; };
+		B559E3F2190C4DD600DC71F4 /* 2012-Aston-Martin-One-77-drift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2012-Aston-Martin-One-77-drift.jpg"; sourceTree = "<group>"; };
+		B55B815E1778DC3E006BB663 /* killarney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = killarney.jpg; sourceTree = "<group>"; };
+		B55B81601778DCF4006BB663 /* Map Marten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Map Marten.jpg"; sourceTree = "<group>"; };
+		B55B81621778DD4E006BB663 /* 100233.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100233.jpg; sourceTree = "<group>"; };
+		B55B81641778DF47006BB663 /* bonneville-585.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bonneville-585.jpg"; sourceTree = "<group>"; };
+		B561FD4D18CBD5F200C59788 /* Unexpected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unexpected.jpg; path = ../../../../Downloads/Unexpected.jpg; sourceTree = "<group>"; };
+		B561FD4F18CBD71E00C59788 /* stopwatch-racetrack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "stopwatch-racetrack.jpg"; path = "../../../../Downloads/stopwatch-racetrack.jpg"; sourceTree = "<group>"; };
+		B562C2AA177391C1007993FD /* iro002-14-55p-panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iro002-14-55p-panorama.jpg"; sourceTree = "<group>"; };
+		B562C2AC177392E8007993FD /* 赤城山.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤城山.png"; sourceTree = "<group>"; };
+		B562C2AE177393E8007993FD /* 02-Nov-10-rFactorCentral-1916_wsegewrhgerthrthj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-Nov-10-rFactorCentral-1916_wsegewrhgerthrthj.jpg"; sourceTree = "<group>"; };
+		B56CA99E177B75AC0041C1C2 /* delmarplata1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delmarplata1.jpg; sourceTree = "<group>"; };
+		B56CA9A0177B781D0041C1C2 /* 800px-Autódromo_Ciudad_de_Mar_del_Plata_(Argentina)_track_map.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "800px-Autódromo_Ciudad_de_Mar_del_Plata_(Argentina)_track_map.svg.png"; sourceTree = "<group>"; };
+		B56CA9A2177B791F0041C1C2 /* ver_foto_grande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ver_foto_grande.jpg; sourceTree = "<group>"; };
+		B56CA9A4177B7D610041C1C2 /* sls-amg-isle-of-man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sls-amg-isle-of-man.jpg"; sourceTree = "<group>"; };
+		B56CA9A6177B7FC30041C1C2 /* rdiagrama18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rdiagrama18.png; sourceTree = "<group>"; };
+		B56CA9A8177B81120041C1C2 /* 305462.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 305462.jpg; sourceTree = "<group>"; };
+		B56CBA471770D1F700A72CEB /* silverstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silverstone.jpg; sourceTree = "<group>"; };
+		B56CBA491770D26B00A72CEB /* 8508797786_ee24935131_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8508797786_ee24935131_o.jpg; sourceTree = "<group>"; };
+		B56CBA4B1770D2EE00A72CEB /* hd-wallpaper-30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hd-wallpaper-30.jpg"; sourceTree = "<group>"; };
+		B56CBA4D1770D3BF00A72CEB /* fuji7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fuji7.jpg; sourceTree = "<group>"; };
+		B56CBA4F1770D44B00A72CEB /* euro-club-sport-meet-fuji-speedway-37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "euro-club-sport-meet-fuji-speedway-37.jpg"; sourceTree = "<group>"; };
+		B57351AC1797FF9A0066C7A0 /* MDDirectionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDirectionService.h; sourceTree = "<group>"; };
+		B57351AD1797FF9A0066C7A0 /* MDDirectionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDirectionService.m; sourceTree = "<group>"; };
+		B57C446818EF3635005D5CDB /* furka.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = furka.gif; sourceTree = "<group>"; };
+		B57C446A18EF3B17005D5CDB /* Furkapass_westside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Furkapass_westside.jpg; sourceTree = "<group>"; };
+		B57C446C18EF3CB4005D5CDB /* furka-pass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "furka-pass.jpg"; sourceTree = "<group>"; };
+		B57C446E18EF3D4C005D5CDB /* FurkaPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FurkaPassViewController.h; path = ../FurkaPassViewController.h; sourceTree = "<group>"; };
+		B57C446F18EF3D4C005D5CDB /* FurkaPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FurkaPassViewController.m; path = ../FurkaPassViewController.m; sourceTree = "<group>"; };
+		B57C447118EF4059005D5CDB /* 4949583925_484c45e94e_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4949583925_484c45e94e_b.jpg; sourceTree = "<group>"; };
+		B57C447318EF4FB1005D5CDB /* TianmenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TianmenViewController.h; sourceTree = "<group>"; };
+		B57C447418EF4FB1005D5CDB /* TianmenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TianmenViewController.m; sourceTree = "<group>"; };
+		B57C447618EF528B005D5CDB /* Transalpina-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Transalpina-4.jpg"; sourceTree = "<group>"; };
+		B57C447818EF54FF005D5CDB /* Transalpina Road Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Transalpina Road Diagram.png"; sourceTree = "<group>"; };
+		B57C447A18EF558B005D5CDB /* 6171782820101c5b8107b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6171782820101c5b8107b.jpg; sourceTree = "<group>"; };
+		B57C447C18EF565C005D5CDB /* YorkshireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YorkshireViewController.h; sourceTree = "<group>"; };
+		B57C447D18EF565C005D5CDB /* YorkshireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YorkshireViewController.m; sourceTree = "<group>"; };
+		B57C447F18EF579B005D5CDB /* TransalpinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransalpinaViewController.h; sourceTree = "<group>"; };
+		B57C448018EF579B005D5CDB /* TransalpinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransalpinaViewController.m; sourceTree = "<group>"; };
+		B57CC0B418E7861200B680FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B57CC0B918E78AE300B680FA /* ChapmansPeakDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapmansPeakDriveViewController.h; sourceTree = "<group>"; };
+		B57CC0BA18E78AE300B680FA /* ChapmansPeakDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapmansPeakDriveViewController.m; sourceTree = "<group>"; };
+		B585FE5F1892A9F70019F216 /* Transfagarasan-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Transfagarasan-2.jpg"; path = "../../../../Downloads/Transfagarasan-2.jpg"; sourceTree = "<group>"; };
+		B585FE611892AEC30019F216 /* TransfgrsnRoadDiagram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TransfgrsnRoadDiagram.jpg; path = ../../../../Downloads/TransfgrsnRoadDiagram.jpg; sourceTree = "<group>"; };
+		B585FE631892AFFB0019F216 /* 5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg"; path = "../../../../Downloads/5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg"; sourceTree = "<group>"; };
+		B585FE651892B0080019F216 /* Transfagarasan Road in Fagaras Mountains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Transfagarasan Road in Fagaras Mountains.jpg"; path = "../../../../Downloads/Transfagarasan Road in Fagaras Mountains.jpg"; sourceTree = "<group>"; };
+		B58C2D591908BE4C0072D05B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		B59741BC1768F44B00EFFC3D /* Leaderboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leaderboard.h; path = ../Leaderboard.h; sourceTree = "<group>"; };
+		B59741BD1768F44B00EFFC3D /* Leaderboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Leaderboard.m; path = ../Leaderboard.m; sourceTree = "<group>"; };
+		B5980A13187701DB00E8758F /* atlantic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = atlantic.jpg; path = ../../../../Downloads/atlantic.jpg; sourceTree = "<group>"; };
+		B5980A151877027F00E8758F /* atlanticrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atlanticrd.png; path = ../../../../Downloads/atlanticrd.png; sourceTree = "<group>"; };
+		B5980A17187702A600E8758F /* atlantic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = atlantic1.jpg; path = ../../../../Downloads/atlantic1.jpg; sourceTree = "<group>"; };
+		B5A24F5C1755719B00DCD62E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B5A24F5E175571A800DCD62E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B5A24F60175571BC00DCD62E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B5A24F62175571CA00DCD62E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B5A24F64175571D800DCD62E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B5A24F66175571EC00DCD62E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B5A24F68175571FE00DCD62E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B5A24F6A1755720B00DCD62E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B5A24F6C1755721600DCD62E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B5A24F6E1755722300DCD62E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5A24F701755723000DCD62E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B5A24F721755747C00DCD62E /* RaceTrackMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceTrackMapView.h; sourceTree = "<group>"; };
+		B5A24F731755747C00DCD62E /* RaceTrackMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceTrackMapView.m; sourceTree = "<group>"; };
+		B5A35552190837A100EB34AC /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../../../.Trash/GoogleMaps.bundle; sourceTree = "<group>"; };
+		B5A9609F172E22F6003E0B1A /* RaceLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A960A2172E22F6003E0B1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5A960A4172E22F6003E0B1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5A960A6172E22F6003E0B1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5A960AA172E22F6003E0B1A /* DRiV3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRiV3-Info.plist"; sourceTree = "<group>"; };
+		B5A960AC172E22F6003E0B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5A960AE172E22F6003E0B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5A960B0172E22F6003E0B1A /* RaceLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaceLogger-Prefix.pch"; sourceTree = "<group>"; };
+		B5A960B1172E22F6003E0B1A /* MetrotunibelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetrotunibelAppDelegate.h; sourceTree = "<group>"; };
+		B5A960B2172E22F6003E0B1A /* MetrotunibelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetrotunibelAppDelegate.m; sourceTree = "<group>"; };
+		B5A960B4172E22F6003E0B1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5A960B6172E22F6003E0B1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5A960B8172E22F6003E0B1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5A960BB172E22F6003E0B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B5A960BD172E22F6003E0B1A /* MetrotunibelFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetrotunibelFirstViewController.h; sourceTree = "<group>"; };
+		B5A960BE172E22F6003E0B1A /* MetrotunibelFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetrotunibelFirstViewController.m; sourceTree = "<group>"; };
+		B5A960C0172E22F6003E0B1A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B5A960C2172E22F6003E0B1A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B5A960C4172E22F6003E0B1A /* MetrotunibelSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetrotunibelSecondViewController.h; sourceTree = "<group>"; };
+		B5A960C5172E22F6003E0B1A /* MetrotunibelSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetrotunibelSecondViewController.m; sourceTree = "<group>"; };
+		B5A960C7172E22F6003E0B1A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B5A960C9172E22F6003E0B1A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B5AB612F17740251002ABD7F /* 800px-Forestelbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "800px-Forestelbow.jpg"; sourceTree = "<group>"; };
+		B5AB613117740308002ABD7F /* mpcd.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mpcd.PNG; sourceTree = "<group>"; };
+		B5B239601865AC9F00F9DBF8 /* CA1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CA1-2.png"; path = "../../../../Desktop/CA1-2.png"; sourceTree = "<group>"; };
+		B5B239611865AC9F00F9DBF8 /* CA1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CA1-1.png"; path = "../../../../Desktop/CA1-1.png"; sourceTree = "<group>"; };
+		B5B239641865E0B100F9DBF8 /* CA1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CA1.jpg; path = ../../../../Downloads/CA1.jpg; sourceTree = "<group>"; };
+		B5B239661865E20A00F9DBF8 /* Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg"; path = "../../../../Downloads/Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg"; sourceTree = "<group>"; };
+		B5B239681865E32C00F9DBF8 /* 2006-mendocino.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "2006-mendocino.jpeg"; path = "../../../../Downloads/2006-mendocino.jpeg"; sourceTree = "<group>"; };
+		B5C642B417738BD40045A31C /* 27673810.fuj045.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27673810.fuj045.JPG; sourceTree = "<group>"; };
+		B5C642B617738C780045A31C /* kalbadi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kalbadi.png; sourceTree = "<group>"; };
+		B5C642B817738CDF0045A31C /* DSC_0632.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0632.JPG; sourceTree = "<group>"; };
+		B5C9751A18EF799100412C52 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		B5C9751C18EF7BE700412C52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5C9752018EF7D2B00412C52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5C9DCCD18EF692C0000B241 /* Leh-Manali-Highway-Road-trip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leh-Manali-Highway-Road-trip.jpg"; sourceTree = "<group>"; };
+		B5C9DCCF18EF6AA40000B241 /* 290px-Leh_manali_highway_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "290px-Leh_manali_highway_map.png"; sourceTree = "<group>"; };
+		B5C9DCD118EF6B270000B241 /* on-the-way-to-gulaba-from-manali-on-manalileh-highway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "on-the-way-to-gulaba-from-manali-on-manalileh-highway.jpg"; sourceTree = "<group>"; };
+		B5C9DCD318EF6BC10000B241 /* LehManaliViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LehManaliViewController.h; sourceTree = "<group>"; };
+		B5C9DCD418EF6BC10000B241 /* LehManaliViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LehManaliViewController.m; sourceTree = "<group>"; };
+		B5EE8FBD176B8BF60065C032 /* IMG_7061.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7061.jpg; sourceTree = "<group>"; };
+		B5EE8FBF176B8EEF0065C032 /* silverstone_arena_2010-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silverstone_arena_2010-2.jpg"; sourceTree = "<group>"; };
+		B5FCCFD018EFBF5800B26477 /* icon114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114px.png; sourceTree = "<group>"; };
+		B5FCCFD118EFBF5900B26477 /* icon120x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120x.png; sourceTree = "<group>"; };
+		B5FCCFD218EFBF5900B26477 /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		B5FCCFD318EFBF5900B26477 /* icon57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57px.png; sourceTree = "<group>"; };
+		B5FCCFD418EFBF5900B26477 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		B5FCCFD518EFBF5900B26477 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A9609C172E22F6003E0B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A24F711755723000DCD62E /* SystemConfiguration.framework in Frameworks */,
+				B5A24F6F1755722300DCD62E /* QuartzCore.framework in Frameworks */,
+				B57CC0B518E7861200B680FA /* MapKit.framework in Frameworks */,
+				B5A24F6D1755721600DCD62E /* OpenGLES.framework in Frameworks */,
+				B5A24F6B1755720B00DCD62E /* libz.dylib in Frameworks */,
+				B5A24F69175571FE00DCD62E /* libicucore.dylib in Frameworks */,
+				B5A24F67175571EC00DCD62E /* libc++.dylib in Frameworks */,
+				B5A24F65175571D800DCD62E /* ImageIO.framework in Frameworks */,
+				B5A24F63175571CA00DCD62E /* GLKit.framework in Frameworks */,
+				B5A24F61175571BC00DCD62E /* CoreText.framework in Frameworks */,
+				B5A24F5F175571A800DCD62E /* CoreLocation.framework in Frameworks */,
+				B5A24F5D1755719B00DCD62E /* CoreData.framework in Frameworks */,
+				B5A960A3172E22F6003E0B1A /* UIKit.framework in Frameworks */,
+				B5A960A5172E22F6003E0B1A /* Foundation.framework in Frameworks */,
+				B58C2D5A1908BE4C0072D05B /* GoogleMaps.framework in Frameworks */,
+				B5A960A7172E22F6003E0B1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56CBA461770D15600A72CEB /* Pictures  */ = {
+			isa = PBXGroup;
+			children = (
+				B559E3F0190C4CE100DC71F4 /* The_Evo_Triangle_8.jpg */,
+				B57C447A18EF558B005D5CDB /* 6171782820101c5b8107b.jpg */,
+				B57C447818EF54FF005D5CDB /* Transalpina Road Diagram.png */,
+				B57C447118EF4059005D5CDB /* 4949583925_484c45e94e_b.jpg */,
+				B57C446C18EF3CB4005D5CDB /* furka-pass.jpg */,
+				B57C446818EF3635005D5CDB /* furka.gif */,
+				B561FD4D18CBD5F200C59788 /* Unexpected.jpg */,
+				B5B239641865E0B100F9DBF8 /* CA1.jpg */,
+				B5C9DCCD18EF692C0000B241 /* Leh-Manali-Highway-Road-trip.jpg */,
+				B54A17E118DFB24300B0F2D0 /* Screen Shot 2014-03-23 at 5.20.35 PM.png */,
+				B54A17E318DFB36100B0F2D0 /* chapmans-peak-road-cape-town.jpg */,
+				B54A17DF18DFB0A400B0F2D0 /* 5308811318_8b5e7a1f66_b.jpg */,
+				B57C446A18EF3B17005D5CDB /* Furkapass_westside.jpg */,
+				B561FD4F18CBD71E00C59788 /* stopwatch-racetrack.jpg */,
+				B5B239661865E20A00F9DBF8 /* Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg */,
+				B585FE611892AEC30019F216 /* TransfgrsnRoadDiagram.jpg */,
+				B585FE651892B0080019F216 /* Transfagarasan Road in Fagaras Mountains.jpg */,
+				B585FE631892AFFB0019F216 /* 5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg */,
+				B5C9DCCF18EF6AA40000B241 /* 290px-Leh_manali_highway_map.png */,
+				B5980A13187701DB00E8758F /* atlantic.jpg */,
+				B585FE5F1892A9F70019F216 /* Transfagarasan-2.jpg */,
+				B55698D918B7237E0064C997 /* th.jpeg */,
+				B57C447618EF528B005D5CDB /* Transalpina-4.jpg */,
+				B5980A151877027F00E8758F /* atlanticrd.png */,
+				B5B239601865AC9F00F9DBF8 /* CA1-2.png */,
+				B5980A17187702A600E8758F /* atlantic1.jpg */,
+				B5B239611865AC9F00F9DBF8 /* CA1-1.png */,
+				B5B239681865E32C00F9DBF8 /* 2006-mendocino.jpeg */,
+				B5112F9917997A3F004DE1D6 /* yorkshire.jpeg */,
+				B56CA9A4177B7D610041C1C2 /* sls-amg-isle-of-man.jpg */,
+				B56CA99E177B75AC0041C1C2 /* delmarplata1.jpg */,
+				B5C9DCD118EF6B270000B241 /* on-the-way-to-gulaba-from-manali-on-manalileh-highway.jpg */,
+				B55B81601778DCF4006BB663 /* Map Marten.jpg */,
+				B55B815E1778DC3E006BB663 /* killarney.jpg */,
+				B562C2AA177391C1007993FD /* iro002-14-55p-panorama.jpg */,
+				B5AB612F17740251002ABD7F /* 800px-Forestelbow.jpg */,
+				B55B81641778DF47006BB663 /* bonneville-585.jpg */,
+				B559E3F2190C4DD600DC71F4 /* 2012-Aston-Martin-One-77-drift.jpg */,
+				B56CA9A2177B791F0041C1C2 /* ver_foto_grande.jpg */,
+				B56CA9A6177B7FC30041C1C2 /* rdiagrama18.png */,
+				B56CBA471770D1F700A72CEB /* silverstone.jpg */,
+				B56CA9A8177B81120041C1C2 /* 305462.jpg */,
+				B56CBA4F1770D44B00A72CEB /* euro-club-sport-meet-fuji-speedway-37.jpg */,
+				B55B81621778DD4E006BB663 /* 100233.jpg */,
+				B56CA9A0177B781D0041C1C2 /* 800px-Autódromo_Ciudad_de_Mar_del_Plata_(Argentina)_track_map.svg.png */,
+				B5AB613117740308002ABD7F /* mpcd.PNG */,
+				B562C2AE177393E8007993FD /* 02-Nov-10-rFactorCentral-1916_wsegewrhgerthrthj.jpg */,
+				B5C642B617738C780045A31C /* kalbadi.png */,
+				B525FEA81770E1910090D991 /* North-Yungas-2.jpg */,
+				B525FEA61770DF400090D991 /* bmpic5.jpg */,
+				B5C642B817738CDF0045A31C /* DSC_0632.JPG */,
+				B5C642B417738BD40045A31C /* 27673810.fuj045.JPG */,
+				B562C2AC177392E8007993FD /* 赤城山.png */,
+				B5A960C0172E22F6003E0B1A /* first.png */,
+				B525FEA41770DEAC0090D991 /* Screen Shot 2013-06-18 at 12.28.56 PM.png */,
+				B56CBA4D1770D3BF00A72CEB /* fuji7.jpg */,
+				B525FEAC1770E4A80090D991 /* boli.jpg */,
+				B536F4EF18ED17230083FCA2 /* Karakoram1.jpg */,
+				B5A960C2172E22F6003E0B1A /* first@2x.png */,
+				B525FEAA1770E43F0090D991 /* Screen Shot 2013-06-18 at 12.52.59 PM.png */,
+				B525FEA21770DCAE0090D991 /* Black-Mountains-Road-640x336.jpg */,
+				B5A960C7172E22F6003E0B1A /* second.png */,
+				B5A960C9172E22F6003E0B1A /* second@2x.png */,
+				B56CBA4B1770D2EE00A72CEB /* hd-wallpaper-30.jpg */,
+				B56CBA491770D26B00A72CEB /* 8508797786_ee24935131_o.jpg */,
+				B5EE8FBF176B8EEF0065C032 /* silverstone_arena_2010-2.jpg */,
+				B5EE8FBD176B8BF60065C032 /* IMG_7061.jpg */,
+				B5A960B4172E22F6003E0B1A /* Default.png */,
+				B5A960B6172E22F6003E0B1A /* Default@2x.png */,
+				B5A960B8172E22F6003E0B1A /* Default-568h@2x.png */,
+			);
+			name = "Pictures ";
+			sourceTree = "<group>";
+		};
+		B5A96096172E22F5003E0B1A = {
+			isa = PBXGroup;
+			children = (
+				B5FCCFCF18EFBF5800B26477 /* ios */,
+				B5C9752018EF7D2B00412C52 /* Default-568h@2x.png */,
+				B5C9751C18EF7BE700412C52 /* Default@2x.png */,
+				B5C9751A18EF799100412C52 /* Default~iphone.png */,
+				B5A960A8172E22F6003E0B1A /* Race Logger */,
+				B5A960A1172E22F6003E0B1A /* Frameworks */,
+				B5A960A0172E22F6003E0B1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A960A0172E22F6003E0B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9609F172E22F6003E0B1A /* RaceLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A960A1172E22F6003E0B1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58C2D591908BE4C0072D05B /* GoogleMaps.framework */,
+				B57CC0B418E7861200B680FA /* MapKit.framework */,
+				B5A24F701755723000DCD62E /* SystemConfiguration.framework */,
+				B5A24F6E1755722300DCD62E /* QuartzCore.framework */,
+				B5A24F6C1755721600DCD62E /* OpenGLES.framework */,
+				B5A24F6A1755720B00DCD62E /* libz.dylib */,
+				B5A24F68175571FE00DCD62E /* libicucore.dylib */,
+				B5A35552190837A100EB34AC /* GoogleMaps.bundle */,
+				B5A24F66175571EC00DCD62E /* libc++.dylib */,
+				B5A24F64175571D800DCD62E /* ImageIO.framework */,
+				B5A24F62175571CA00DCD62E /* GLKit.framework */,
+				B5A24F60175571BC00DCD62E /* CoreText.framework */,
+				B5A24F5E175571A800DCD62E /* CoreLocation.framework */,
+				B5A24F5C1755719B00DCD62E /* CoreData.framework */,
+				B5A960A2172E22F6003E0B1A /* UIKit.framework */,
+				B5A960A4172E22F6003E0B1A /* Foundation.framework */,
+				B5A960A6172E22F6003E0B1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5A960A8172E22F6003E0B1A /* Race Logger */ = {
+			isa = PBXGroup;
+			children = (
+				B57C446E18EF3D4C005D5CDB /* FurkaPassViewController.h */,
+				B57C446F18EF3D4C005D5CDB /* FurkaPassViewController.m */,
+				B51A556218EB89DD002E0D05 /* IsleOfManViewController.h */,
+				B51A556318EB89DD002E0D05 /* IsleOfManViewController.m */,
+				B5A960B1172E22F6003E0B1A /* MetrotunibelAppDelegate.h */,
+				B5A960B2172E22F6003E0B1A /* MetrotunibelAppDelegate.m */,
+				B5A960BA172E22F6003E0B1A /* MainStoryboard.storyboard */,
+				B525B48F18F08C1C00B45F7E /* NoRoadsViewController.h */,
+				B525B49018F08C1C00B45F7E /* NoRoadsViewController.m */,
+				B5C9DCD318EF6BC10000B241 /* LehManaliViewController.h */,
+				B5C9DCD418EF6BC10000B241 /* LehManaliViewController.m */,
+				B57C447C18EF565C005D5CDB /* YorkshireViewController.h */,
+				B57C447F18EF579B005D5CDB /* TransalpinaViewController.h */,
+				B57C448018EF579B005D5CDB /* TransalpinaViewController.m */,
+				B57C447D18EF565C005D5CDB /* YorkshireViewController.m */,
+				B57C447318EF4FB1005D5CDB /* TianmenViewController.h */,
+				B57C447418EF4FB1005D5CDB /* TianmenViewController.m */,
+				B5A960BD172E22F6003E0B1A /* MetrotunibelFirstViewController.h */,
+				B5A960BE172E22F6003E0B1A /* MetrotunibelFirstViewController.m */,
+				B59741BC1768F44B00EFFC3D /* Leaderboard.h */,
+				B5A24F721755747C00DCD62E /* RaceTrackMapView.h */,
+				B5A24F731755747C00DCD62E /* RaceTrackMapView.m */,
+				B54BD96418ECD60D00C285F1 /* AtlanticRoadViewController.h */,
+				B54BD96518ECD60D00C285F1 /* AtlanticRoadViewController.m */,
+				B54BD96A18ECD77200C285F1 /* TransfagarasanViewController.h */,
+				B54BD96B18ECD77200C285F1 /* TransfagarasanViewController.m */,
+				B54BD96718ECD70400C285F1 /* StelvioPassViewController.h */,
+				B54BD96818ECD70400C285F1 /* StelvioPassViewController.m */,
+				B54BD96118ECD4D900C285F1 /* Highway1ViewController.h */,
+				B54BD96218ECD4D900C285F1 /* Highway1ViewController.m */,
+				B54BD95E18ECD40500C285F1 /* AkagiViewController.h */,
+				B54BD95F18ECD40500C285F1 /* AkagiViewController.m */,
+				B54BD95B18ECD16D00C285F1 /* KalbaViewController.h */,
+				B54BD95C18ECD16D00C285F1 /* KalbaViewController.m */,
+				B54BD95818ECD01400C285F1 /* BlackMountainPassViewController.h */,
+				B54BD95918ECD01400C285F1 /* BlackMountainPassViewController.m */,
+				B54BD95518ECCF7200C285F1 /* MountPanoramaViewController.h */,
+				B54BD95618ECCF7200C285F1 /* MountPanoramaViewController.m */,
+				B54BD95218ECCE5500C285F1 /* BonnevilleViewController.h */,
+				B54BD95318ECCE5500C285F1 /* BonnevilleViewController.m */,
+				B536F4EC18ED0F070083FCA2 /* KarakoramViewController.h */,
+				B536F4ED18ED0F070083FCA2 /* KarakoramViewController.m */,
+				B59741BD1768F44B00EFFC3D /* Leaderboard.m */,
+				B5A960C4172E22F6003E0B1A /* MetrotunibelSecondViewController.h */,
+				B5A960C5172E22F6003E0B1A /* MetrotunibelSecondViewController.m */,
+				B57351AC1797FF9A0066C7A0 /* MDDirectionService.h */,
+				B57351AD1797FF9A0066C7A0 /* MDDirectionService.m */,
+				B57CC0B918E78AE300B680FA /* ChapmansPeakDriveViewController.h */,
+				B57CC0BA18E78AE300B680FA /* ChapmansPeakDriveViewController.m */,
+				B51A556518EB8BFE002E0D05 /* YungasViewController.h */,
+				B51A556618EB8BFE002E0D05 /* YungasViewController.m */,
+				B56CBA461770D15600A72CEB /* Pictures  */,
+				B5A960A9172E22F6003E0B1A /* Supporting Files */,
+			);
+			path = "Race Logger";
+			sourceTree = "<group>";
+		};
+		B5A960A9172E22F6003E0B1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A960AA172E22F6003E0B1A /* DRiV3-Info.plist */,
+				B5A960AB172E22F6003E0B1A /* InfoPlist.strings */,
+				B5A960AE172E22F6003E0B1A /* main.m */,
+				B5A960B0172E22F6003E0B1A /* RaceLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5FCCFCF18EFBF5800B26477 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCCFD018EFBF5800B26477 /* icon114px.png */,
+				B5FCCFD118EFBF5900B26477 /* icon120x.png */,
+				B5FCCFD218EFBF5900B26477 /* icon29.png */,
+				B5FCCFD318EFBF5900B26477 /* icon57px.png */,
+				B5FCCFD418EFBF5900B26477 /* icon58.png */,
+				B5FCCFD518EFBF5900B26477 /* icon80.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A9609E172E22F6003E0B1A /* RaceLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A960CD172E22F6003E0B1A /* Build configuration list for PBXNativeTarget "RaceLogger" */;
+			buildPhases = (
+				B5A9609B172E22F6003E0B1A /* Sources */,
+				B5A9609C172E22F6003E0B1A /* Frameworks */,
+				B5A9609D172E22F6003E0B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceLogger;
+			productName = "Race Logger";
+			productReference = B5A9609F172E22F6003E0B1A /* RaceLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A96097172E22F6003E0B1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Metrotunibel;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Samarth Sandeep";
+				TargetAttributes = {
+					B5A9609E172E22F6003E0B1A = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B5A9609A172E22F6003E0B1A /* Build configuration list for PBXProject "RaceLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5A96096172E22F5003E0B1A;
+			productRefGroup = B5A960A0172E22F6003E0B1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A9609E172E22F6003E0B1A /* RaceLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A9609D172E22F6003E0B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A960AD172E22F6003E0B1A /* InfoPlist.strings in Resources */,
+				B5A960B5172E22F6003E0B1A /* Default.png in Resources */,
+				B5A960B7172E22F6003E0B1A /* Default@2x.png in Resources */,
+				B5C9752118EF7D2B00412C52 /* Default-568h@2x.png in Resources */,
+				B5A960B9172E22F6003E0B1A /* Default-568h@2x.png in Resources */,
+				B5A960BC172E22F6003E0B1A /* MainStoryboard.storyboard in Resources */,
+				B5C9751D18EF7BE700412C52 /* Default@2x.png in Resources */,
+				B5A960C1172E22F6003E0B1A /* first.png in Resources */,
+				B5A960C3172E22F6003E0B1A /* first@2x.png in Resources */,
+				B5A960C8172E22F6003E0B1A /* second.png in Resources */,
+				B5C9DCD018EF6AA40000B241 /* 290px-Leh_manali_highway_map.png in Resources */,
+				B5FCCFD718EFBF5900B26477 /* icon120x.png in Resources */,
+				B5FCCFD918EFBF5900B26477 /* icon57px.png in Resources */,
+				B5A960CA172E22F6003E0B1A /* second@2x.png in Resources */,
+				B5FCCFDB18EFBF5900B26477 /* icon80.png in Resources */,
+				B5C9DCD218EF6B270000B241 /* on-the-way-to-gulaba-from-manali-on-manalileh-highway.jpg in Resources */,
+				B5EE8FBE176B8BF60065C032 /* IMG_7061.jpg in Resources */,
+				B5EE8FC0176B8EEF0065C032 /* silverstone_arena_2010-2.jpg in Resources */,
+				B57C446B18EF3B17005D5CDB /* Furkapass_westside.jpg in Resources */,
+				B56CBA481770D1F700A72CEB /* silverstone.jpg in Resources */,
+				B54A17E018DFB0A400B0F2D0 /* 5308811318_8b5e7a1f66_b.jpg in Resources */,
+				B56CBA4A1770D26B00A72CEB /* 8508797786_ee24935131_o.jpg in Resources */,
+				B56CBA4C1770D2EE00A72CEB /* hd-wallpaper-30.jpg in Resources */,
+				B56CBA4E1770D3BF00A72CEB /* fuji7.jpg in Resources */,
+				B536F4F018ED17230083FCA2 /* Karakoram1.jpg in Resources */,
+				B54A17E218DFB24300B0F2D0 /* Screen Shot 2014-03-23 at 5.20.35 PM.png in Resources */,
+				B56CBA501770D44B00A72CEB /* euro-club-sport-meet-fuji-speedway-37.jpg in Resources */,
+				B525FEA31770DCAE0090D991 /* Black-Mountains-Road-640x336.jpg in Resources */,
+				B559E3F3190C4DD600DC71F4 /* 2012-Aston-Martin-One-77-drift.jpg in Resources */,
+				B561FD4E18CBD5F200C59788 /* Unexpected.jpg in Resources */,
+				B525FEA51770DEAC0090D991 /* Screen Shot 2013-06-18 at 12.28.56 PM.png in Resources */,
+				B525FEA71770DF400090D991 /* bmpic5.jpg in Resources */,
+				B525FEA91770E1910090D991 /* North-Yungas-2.jpg in Resources */,
+				B525FEAB1770E43F0090D991 /* Screen Shot 2013-06-18 at 12.52.59 PM.png in Resources */,
+				B525FEAD1770E4A80090D991 /* boli.jpg in Resources */,
+				B5C642B517738BD40045A31C /* 27673810.fuj045.JPG in Resources */,
+				B5C642B717738C780045A31C /* kalbadi.png in Resources */,
+				B54A17E418DFB36100B0F2D0 /* chapmans-peak-road-cape-town.jpg in Resources */,
+				B5C642B917738CDF0045A31C /* DSC_0632.JPG in Resources */,
+				B57C447718EF528B005D5CDB /* Transalpina-4.jpg in Resources */,
+				B5A35553190837A100EB34AC /* GoogleMaps.bundle in Resources */,
+				B561FD5018CBD71E00C59788 /* stopwatch-racetrack.jpg in Resources */,
+				B5FCCFD618EFBF5900B26477 /* icon114px.png in Resources */,
+				B5FCCFDA18EFBF5900B26477 /* icon58.png in Resources */,
+				B57C446918EF3635005D5CDB /* furka.gif in Resources */,
+				B562C2AB177391C1007993FD /* iro002-14-55p-panorama.jpg in Resources */,
+				B5FCCFD818EFBF5900B26477 /* icon29.png in Resources */,
+				B562C2AD177392E8007993FD /* 赤城山.png in Resources */,
+				B562C2AF177393E8007993FD /* 02-Nov-10-rFactorCentral-1916_wsegewrhgerthrthj.jpg in Resources */,
+				B5AB613017740251002ABD7F /* 800px-Forestelbow.jpg in Resources */,
+				B5AB613217740308002ABD7F /* mpcd.PNG in Resources */,
+				B55B815F1778DC3E006BB663 /* killarney.jpg in Resources */,
+				B5C9751B18EF799100412C52 /* Default~iphone.png in Resources */,
+				B559E3F1190C4CE100DC71F4 /* The_Evo_Triangle_8.jpg in Resources */,
+				B55B81611778DCF4006BB663 /* Map Marten.jpg in Resources */,
+				B55B81631778DD4E006BB663 /* 100233.jpg in Resources */,
+				B55B81651778DF47006BB663 /* bonneville-585.jpg in Resources */,
+				B56CA99F177B75AC0041C1C2 /* delmarplata1.jpg in Resources */,
+				B56CA9A1177B781D0041C1C2 /* 800px-Autódromo_Ciudad_de_Mar_del_Plata_(Argentina)_track_map.svg.png in Resources */,
+				B56CA9A3177B791F0041C1C2 /* ver_foto_grande.jpg in Resources */,
+				B56CA9A5177B7D610041C1C2 /* sls-amg-isle-of-man.jpg in Resources */,
+				B5C9DCCE18EF692C0000B241 /* Leh-Manali-Highway-Road-trip.jpg in Resources */,
+				B56CA9A7177B7FC30041C1C2 /* rdiagrama18.png in Resources */,
+				B56CA9A9177B81120041C1C2 /* 305462.jpg in Resources */,
+				B5112F9A17997A3F004DE1D6 /* yorkshire.jpeg in Resources */,
+				B5B239621865AC9F00F9DBF8 /* CA1-2.png in Resources */,
+				B5B239631865AC9F00F9DBF8 /* CA1-1.png in Resources */,
+				B5B239651865E0B100F9DBF8 /* CA1.jpg in Resources */,
+				B57C447218EF4059005D5CDB /* 4949583925_484c45e94e_b.jpg in Resources */,
+				B5B239671865E20A00F9DBF8 /* Bixby_Creek_Bridge,_The_Big_Sur,_California.jpg in Resources */,
+				B5B239691865E32C00F9DBF8 /* 2006-mendocino.jpeg in Resources */,
+				B5980A14187701DB00E8758F /* atlantic.jpg in Resources */,
+				B5980A161877027F00E8758F /* atlanticrd.png in Resources */,
+				B5980A18187702A600E8758F /* atlantic1.jpg in Resources */,
+				B57C447B18EF558B005D5CDB /* 6171782820101c5b8107b.jpg in Resources */,
+				B57C446D18EF3CB5005D5CDB /* furka-pass.jpg in Resources */,
+				B585FE601892A9F70019F216 /* Transfagarasan-2.jpg in Resources */,
+				B585FE621892AEC30019F216 /* TransfgrsnRoadDiagram.jpg in Resources */,
+				B585FE641892AFFB0019F216 /* 5124078-landscape-in-fagaras-mountains-in-romania-with-transfagarasan-road.jpg in Resources */,
+				B585FE661892B0080019F216 /* Transfagarasan Road in Fagaras Mountains.jpg in Resources */,
+				B57C447918EF54FF005D5CDB /* Transalpina Road Diagram.png in Resources */,
+				B55698DA18B7237E0064C997 /* th.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A9609B172E22F6003E0B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A960AF172E22F6003E0B1A /* main.m in Sources */,
+				B57C447018EF3D4C005D5CDB /* FurkaPassViewController.m in Sources */,
+				B5A960B3172E22F6003E0B1A /* MetrotunibelAppDelegate.m in Sources */,
+				B54BD96C18ECD77200C285F1 /* TransfagarasanViewController.m in Sources */,
+				B5C9DCD518EF6BC10000B241 /* LehManaliViewController.m in Sources */,
+				B54BD96018ECD40500C285F1 /* AkagiViewController.m in Sources */,
+				B51A556718EB8BFE002E0D05 /* YungasViewController.m in Sources */,
+				B536F4EE18ED0F070083FCA2 /* KarakoramViewController.m in Sources */,
+				B5A960BF172E22F6003E0B1A /* MetrotunibelFirstViewController.m in Sources */,
+				B54BD95418ECCE5500C285F1 /* BonnevilleViewController.m in Sources */,
+				B57CC0BB18E78AE300B680FA /* ChapmansPeakDriveViewController.m in Sources */,
+				B5A960C6172E22F6003E0B1A /* MetrotunibelSecondViewController.m in Sources */,
+				B54BD96618ECD60D00C285F1 /* AtlanticRoadViewController.m in Sources */,
+				B5A24F741755747C00DCD62E /* RaceTrackMapView.m in Sources */,
+				B54BD96318ECD4D900C285F1 /* Highway1ViewController.m in Sources */,
+				B54BD96918ECD70400C285F1 /* StelvioPassViewController.m in Sources */,
+				B54BD95D18ECD16D00C285F1 /* KalbaViewController.m in Sources */,
+				B54BD95718ECCF7200C285F1 /* MountPanoramaViewController.m in Sources */,
+				B57C448118EF579B005D5CDB /* TransalpinaViewController.m in Sources */,
+				B59741BE1768F44B00EFFC3D /* Leaderboard.m in Sources */,
+				B57C447E18EF565C005D5CDB /* YorkshireViewController.m in Sources */,
+				B525B49118F08C1C00B45F7E /* NoRoadsViewController.m in Sources */,
+				B57C447518EF4FB1005D5CDB /* TianmenViewController.m in Sources */,
+				B57351AE1797FF9A0066C7A0 /* MDDirectionService.m in Sources */,
+				B51A556418EB89DD002E0D05 /* IsleOfManViewController.m in Sources */,
+				B54BD95A18ECD01400C285F1 /* BlackMountainPassViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5A960AB172E22F6003E0B1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A960AC172E22F6003E0B1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5A960BA172E22F6003E0B1A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A960BB172E22F6003E0B1A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5A960CB172E22F6003E0B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-ObjC",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		B5A960CC172E22F6003E0B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-ObjC",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		B5A960CE172E22F6003E0B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/GoogleMaps-iOS-1.3.0\"",
+					"\"$(SRCROOT)/../../../Downloads/GoogleMaps-iOS-1.3.0/GoogleMapsSDKDemos\"",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Race Logger/RaceLogger-Prefix.pch";
+				INFOPLIST_FILE = "Race Logger/DRiV3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = RaceLogger;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5A960CF172E22F6003E0B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/GoogleMaps-iOS-1.3.0\"",
+					"\"$(SRCROOT)/../../../Downloads/GoogleMaps-iOS-1.3.0/GoogleMapsSDKDemos\"",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Race Logger/RaceLogger-Prefix.pch";
+				INFOPLIST_FILE = "Race Logger/DRiV3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = RaceLogger;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A9609A172E22F6003E0B1A /* Build configuration list for PBXProject "RaceLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A960CB172E22F6003E0B1A /* Debug */,
+				B5A960CC172E22F6003E0B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A960CD172E22F6003E0B1A /* Build configuration list for PBXNativeTarget "RaceLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A960CE172E22F6003E0B1A /* Debug */,
+				B5A960CF172E22F6003E0B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A96097172E22F6003E0B1A /* Project object */;
+}

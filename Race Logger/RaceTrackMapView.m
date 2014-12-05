@@ -17,8 +17,7 @@
 
 @implementation RaceTrackMapView
 GMSMapView *mapView_;
-NSMutableArray *waypoints_;
-NSMutableArray *waypointStrings_;
+
 -(void)loadView
 {
     GMSCameraPosition *maincamera = [GMSCameraPosition cameraWithLatitude:51.4778
@@ -111,13 +110,13 @@ NSMutableArray *waypointStrings_;
     akagimarker.title = @"Akagi Pass";
     akagimarker.map = mapView_;
     akagimarker.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
-    akagimarker.snippet = @"Nunata, Gunma, Japan";
+    akagimarker.snippet = @"Numata, Gunma, Japan";
     
 
     mapView_.myLocationEnabled = YES;
     self.view = mapView_;
     GMSMarker *fujimarker = [[GMSMarker alloc] init];
-    fujimarker.position = CLLocationCoordinate2DMake( 35.368318,138.937869);
+    fujimarker.position = CLLocationCoordinate2DMake( 35.368624,138.93023);
     
     fujimarker.title = @"Mt. Fuji Speedway";
     fujimarker.map = mapView_;
@@ -177,36 +176,68 @@ NSMutableArray *waypointStrings_;
     Stelviomarker.map = mapView_;
     Stelviomarker.icon = [GMSMarker markerImageWithColor:[UIColor greenColor]];
     Stelviomarker.snippet = @"Bormio, Italy";
-
-}
-
-
-- (void)mapView:(GMSMapView *)mapView didTapAtCoordinate:
-(CLLocationCoordinate2D)coordinate {
+   
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    GMSMarker *Yorkshiremarker = [[GMSMarker alloc] init];
+    Yorkshiremarker.position = CLLocationCoordinate2DMake(54.242961,-2.152634);
+    Yorkshiremarker.title = @"Yorkshire Dales";
+    Yorkshiremarker.map = mapView_;
+    Yorkshiremarker.icon = [GMSMarker markerImageWithColor:[UIColor greenColor]];
+    Yorkshiremarker.snippet = @"Hawes, United Kingdom";
+   
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    GMSMarker *KarakoramHighwayMarker = [[GMSMarker alloc] init];
+    KarakoramHighwayMarker.position = CLLocationCoordinate2DMake( 36.191023,74.30191);
     
-    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(
-                                                                 coordinate.latitude,
-                                                                 coordinate.longitude);
-    GMSMarker *marker = [GMSMarker markerWithPosition:position];
-    marker.map = mapView_;
-    [waypoints_ addObject:marker];
-    NSString *positionString = [[NSString alloc] initWithFormat:@"%f,%f",
-                                coordinate.latitude,coordinate.longitude];
-    [waypointStrings_ addObject:positionString];
-    if([waypoints_ count]>1){
-        NSString *sensor = @"false";
-        NSArray *parameters = [NSArray arrayWithObjects:sensor, waypointStrings_,
-                               nil];
-        NSArray *keys = [NSArray arrayWithObjects:@"sensor", @"waypoints", nil];
-        NSDictionary *query = [NSDictionary dictionaryWithObjects:parameters
-                                                          forKeys:keys];
-        MDDirectionService *mds=[[MDDirectionService alloc] init];
-        SEL selector = @selector(addDirections:);
-        [mds setDirectionsQuery:query
-                   withSelector:selector
-                   withDelegate:self];
-    }
+    KarakoramHighwayMarker.title = @"Karakoram Highway";
+    KarakoramHighwayMarker.map = mapView_;
+    KarakoramHighwayMarker.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
+    KarakoramHighwayMarker.snippet = @"From Pakistan to China";
+ 
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    GMSMarker *Furkamarker = [[GMSMarker alloc] init];
+    Furkamarker.position = CLLocationCoordinate2DMake(46.563109,8.371754);
+    Furkamarker.title = @"Furka Pass";
+    Furkamarker.map = mapView_;
+    Furkamarker.icon = [GMSMarker markerImageWithColor:[UIColor greenColor]];
+    Furkamarker.snippet = @"Gletsch, Valais, Switzerland";
+    
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    GMSMarker *TransalpinaRoad = [[GMSMarker alloc] init];
+    TransalpinaRoad.position = CLLocationCoordinate2DMake(45.659167,23.621292);
+    TransalpinaRoad.title = @"Transalpina Road";
+    TransalpinaRoad.map = mapView_;
+    TransalpinaRoad.icon = [GMSMarker markerImageWithColor:[UIColor greenColor]];
+    TransalpinaRoad.snippet = @"Sugag, Romania";
+  
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    GMSMarker *TianmenHighwayMarker = [[GMSMarker alloc] init];
+    TianmenHighwayMarker.position = CLLocationCoordinate2DMake( 29.091315,110.495961);
+    
+    TianmenHighwayMarker.title = @"Tianmen Mountain Road";
+    TianmenHighwayMarker.map = mapView_;
+    TianmenHighwayMarker.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
+    TianmenHighwayMarker.snippet = @"Hunan, China";
+    
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    GMSMarker *LehMarker = [[GMSMarker alloc] init];
+    LehMarker.position = CLLocationCoordinate2DMake(33.11153,77.771358);
+    
+    LehMarker.title = @"Leh-Manali Highway";
+    LehMarker.map = mapView_;
+    LehMarker.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
+    LehMarker.snippet = @"Leh, Ladakh, Jammu and Kashmir, India";
 }
+
+
+
+
 - (void)addDirections:(NSDictionary *)json {
     
     NSDictionary *routes = [json objectForKey:@"routes"][0];

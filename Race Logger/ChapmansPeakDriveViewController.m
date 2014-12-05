@@ -36,7 +36,7 @@
 }
 -(IBAction)Directions:(id)sender{
     
-    NSString *urlString = @"https://www.google.com/maps/dir//Chapmans+Peak+Dr,+Cape+Town,+South+Africa/@-34.072562,18.368392,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1dcc69614350c08b:0x9a95e3d0f0c08c!2m2!1d18.3654948!2d-34.0736743?hl=en";
+    NSString *urlString = @"http://maps.apple.com/maps?daddr=-34.072562,18.368392";
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:urlString]];
 }
 
